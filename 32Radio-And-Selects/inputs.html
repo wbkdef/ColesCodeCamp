@@ -11,7 +11,7 @@
 
 <p>Do you prefer cats or dogs?</p>
 
-<!-- Review my notes - try to figure out first, then look at!  P1t170130 P2t170204 P3t170221 P4t170416 P5t170924 P6t190122 P7t230120 P7t350117 rm3.0 tp5 -->
+<!-- Review my notes - try to figure out first, then look at! P2t170204 P3t170221 P4t170416 P5t170924 P6t190122 P7t230120 P7t350117 rm3.0 tp5 -->
 <!-- The action is where you send the get request form submission data to for processing (if it's a get request) -->
 <!-- Defaults to the current website if ommitted -->
 <!-- <form action="https://en.wikipedia.org/wiki/Main_Page" method="post"> USE THIS WHEN THERE IS A SIDE-EFFECT (LIKE THE DATABASE IS CHANGED)--> 
@@ -22,8 +22,9 @@
 	<!-- The name here links this and the cats radio buttons (so can only select one) -->
 	<input name="petChoice" id="dogs" type="radio" value="DOGS" required="true">
 	
-	<label for="cats">Cats:</label>
-	<input name="petChoice" id="cats" type="radio" value="CATS" required>
+	<label>Cats:
+		<input name="petChoice" type="radio" value="CATS" required>
+	</label>
 
 	<p>What's your current mood?</p>
 
